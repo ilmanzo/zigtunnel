@@ -4,7 +4,7 @@ A mesmerizing 3D tunnel effect written in [Zig](https://ziglang.org/), powered b
 
 ## Demo
 
-![Demo](screencast.gif)
+![Demo](demo.gif)
 
 ## Overview
 
