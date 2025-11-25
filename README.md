@@ -17,21 +17,12 @@ Zigtunnel renders a procedurally generated, colorful tunnel with a pulsing, brea
 
 The entire texture is generated procedurally—no image files required. All rendering math is precomputed for blazing-fast frame rates.
 
-## Features
-
-- 🎨 Vibrant rainbow colors with dynamic patterns
-- 🌊 Smooth sinusoidal animation with reversible motion
-- ⚡ Optimized rendering with lookup tables
-- 🎯 Procedural texture generation
-- 🔧 Resizable window support
-- 📊 Real-time FPS counter
 
 ## Building
 
 ### Prerequisites
 
 - [Zig](https://ziglang.org/) (master branch recommended)
-- A C compiler (gcc, clang, or MSVC)
 
 ### Build & Run
 
@@ -62,7 +53,6 @@ zig build -Doptimize=ReleaseFast run
 ## Controls
 
 - **Close window**: Exit the tunnel
-- **Resize window**: Window is fully resizable
 - **FPS counter**: Displayed in top-left corner
 
 ## Customization
@@ -80,7 +70,7 @@ const LINE_HEIGHT = 16;                  // Grid line height
 
 - **Precomputed lookup tables**: Angle and distance calculations happen once at startup
 - **Efficient rendering**: Single-pass linear buffer iteration
-- **Smooth 60 FPS**: Optimized for modern hardware
+- **Smooth 1k FPS**: Optimized for modern hardware
 
 ## Technical Stack
 
